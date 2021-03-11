@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>git的安装与使用 | Kiro的藏经阁</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 5.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">git的安装与使用</h1><a id="logo" href="/.">Kiro的藏经阁</a><p class="description">学习技术 记录生活</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/timeline/"><i class="fa fa-align-justify"> 时间线</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">git的安装与使用</h1><div class="post-meta">2021-02-02<span> | </span><span class="category"><a href="/categories/technology/">technology</a></span></div><a class="disqus-comment-count" href="/2021/02/02/git-init/#vcomment"><span class="valine-comment-count" data-xid="/2021/02/02/git-init/"></span><span> 条评论</span></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85git"><span class="toc-number">1.</span> <span class="toc-text">安装git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEgit"><span class="toc-number">2.</span> <span class="toc-text">配置git</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%85%8D%E7%BD%AESSH-key"><span class="toc-number">2.1.</span> <span class="toc-text">配置SSH key</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEgit%E4%BF%A1%E6%81%AF"><span class="toc-number">2.2.</span> <span class="toc-text">配置git信息</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8git%E5%B0%86%E4%BB%A3%E7%A0%81%E6%89%98%E7%AE%A1%E5%88%B0Githubs"><span class="toc-number">3.</span> <span class="toc-text">使用git将代码托管到Githubs</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9C%A8Github%E4%B8%8A%E5%88%9B%E5%BB%BA-repository"><span class="toc-number">3.1.</span> <span class="toc-text">在Github上创建 repository</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E8%87%B3Github"><span class="toc-number">3.2.</span> <span class="toc-text">上传代码至Github</span></a></li></ol></li></ol></div></div><div class="post-content"><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/GIT/12647237?fr=aladdin">Git</a>（读音为<a target="_blank" rel="noopener" href="https://fanyi.baidu.com/translate?aldtype=16047&query=git&keyfrom=baidu&smartresult=dict&lang=auto2zh#en/zh/git">/gɪt/</a>）是一个开源的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/4905336?fr=aladdin">分布式</a>版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理</p>
+<h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a><strong>安装git</strong></h3><p>安装包：<a target="_blank" rel="noopener" href="https://git-scm.com/">官网</a> <a target="_blank" rel="noopener" href="https://kiro.lanzous.com/ioYvfl7s1uh">蓝奏云</a><br>(Windons需下载,MacOS自带)</p>
+<p>默认设置安装即可，相关设置可查看<a target="_blank" rel="noopener" href="https://git-scm.com/book/zh/v2">官方文档</a></p>
+<p>使用<code>git clone ssh地址</code> 可下载库到本地<br>如：<code>git clone git@github.com:symless/synergy-core.git</code> </p>
+<h3 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a><strong>配置git</strong></h3><h4 id="配置SSH-key"><a href="#配置SSH-key" class="headerlink" title="配置SSH key"></a>配置<a target="_blank" rel="noopener" href="https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5">SSH key</a></h4><ul>
+<li>在任意目录 <strong>右键-Git Bash Here</strong>进入git终端</li>
+<li>输入指令生成SSH秘钥<br><code> ssh-keygen -t rsa -C &quot;邮件地址&quot;// 填写你的github注册邮箱</code></li>
+<li>找到SSH秘钥生成地址(默认：user\.shh\)<br>复制<strong>id_rsa.pub</strong>的文本（使用文本格式打开）</li>
+<li>打开<a target="_blank" rel="noopener" href="https://github.com/">Github</a>，进入 Setting -&gt; SSH and GPGkeys -&gt; NewSSh Key<br>粘贴<strong>id_ras.pub</strong>中文本，标题可以任意,保存秘钥</li>
+<li>查看是否成功<br><code>ssh -T git@github.com #邮箱不用更改</code></li>
+</ul>
+<h4 id="配置git信息"><a href="#配置git信息" class="headerlink" title="配置git信息"></a>配置git信息</h4><ul>
+<li>配置用户：<br><code>git config --global user.name &quot;github用户名&quot; </code><br><code>git config -- global user.email &quot;github注册邮箱&quot;</code></li>
+</ul>
+<h3 id="使用git将代码托管到Githubs"><a href="#使用git将代码托管到Githubs" class="headerlink" title="使用git将代码托管到Githubs"></a>使用git将代码托管到Githubs</h3><h4 id="在Github上创建-repository"><a href="#在Github上创建-repository" class="headerlink" title="在Github上创建 repository"></a>在Github上创建 repository</h4><blockquote>
+<p>Repository name //仓库命名<br>Description          //对功能进行描述<br>public                   //开源，所有人都能访问<br>private                 //闭源，私密仓库<br>initialize this repository with a README //创建一个说明文档<br>Add.gitgnore        //选择仓库主要使用语言<br>Add a license       //增加开源证书，可保留著作权</p>
+</blockquote>
+<p>复制<code> Clone or download</code> 处 SSH 地址</p>
+<h4 id="上传代码至Github"><a href="#上传代码至Github" class="headerlink" title="上传代码至Github"></a>上传代码至Github</h4><ul>
+<li><p>在项目目录中，进入本地git终端，初始化库<br><code>git init</code></p>
+</li>
+<li><p>克隆项目至本地<br><code>git  clone ssh地址</code></p>
+</li>
+<li><p>将<strong>要上传的文件</strong>放入<strong>本地库</strong>目录中</p>
+</li>
+<li><p>git终端进入本地库目录(<a target="_blank" rel="noopener" href="https://blog.csdn.net/bujiongdan/article/details/81164686">cd命令</a>)</p>
+</li>
+<li><p>将变化加载至暂存区</p>
+<p><code>git add .</code></p>
+<blockquote>
+<p>git add -A   //提交所有变化(git add -all的缩写)</p>
+<p>git add -u   //提交被修改(modified)和被删除(deleted)文件，不包括新文件(new)</p>
+<p>git add .     //提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件</p>
+</blockquote>
+</li>
+<li><p>说明这次提交，描述<a target="_blank" rel="noopener" href="https://www.cnblogs.com/qianqiannian/p/6005628.html">提交目的</a><br><code>git commit -m &quot;message&quot;</code></p>
+</li>
+<li><p>将本地库推送到托管服务器中</p>
+<p><code>git push -u origin master</code></p>
+<blockquote>
+<p>上面命令将本地的master分支推送到origin主机，加了参数-u后，以后即可直接用git push 代替git push origin master</p>
+</blockquote>
+<p>如果本地库中文件不是最新<br>可用pull将远程master分支最新内容拉下来后与当前本地分支直接合并 </p>
+<p>如：<code>git pull origin master</code></p>
+</li>
+</ul>
+</div><div class="tags"><a href="/tags/Programes/"><i class="fa fa-tag"></i>Programes</a></div><div class="post-nav"><a class="pre" href="/2021/02/05/Softwave-recommend/">软件推荐[2021.2]</a><a class="next" href="/2021/01/25/hexo-github/">Hexo+Github page部署教程</a></div><div id="vcomment"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//unpkg.zhimg.com/valine@latest/dist/Valine.min.js"></script><script>var notify = 'false' == 'true' ? true : false;
+var verify = 'false' == 'true' ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'404OlP8pGMruCTdW9GMLttvb-9Nh9j0Va',
+  appKey:'iMxIJtMaEJVjV971FYxCYyvK',
+  placeholder:'ヾﾉ≧∀≦)o来啊，快活啊!',
+  avatar:'mm',
+  guest_info:guest_info,
+  pageSize:'10'
+})
+</script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.bing.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Bing搜索"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/libary/">libary</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/technology/">technology</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Softwaves/" style="font-size: 15px;">Softwaves</a> <a href="/tags/Programes/" style="font-size: 15px;">Programes</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2021/02/05/Softwave-recommend/">软件推荐[2021.2]</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/02/02/git-init/">git的安装与使用</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/01/25/hexo-github/">Hexo+Github page部署教程</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="https://lonzzi.github.io/" title="Lonzzi Coding" target="_blank">Lonzzi Coding</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2021 <a href="/." rel="nofollow">Kiro的藏经阁.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
